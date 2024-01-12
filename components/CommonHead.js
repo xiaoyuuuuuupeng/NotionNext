@@ -22,6 +22,8 @@ const CommonHead = ({ meta, children }) => {
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
             <meta name="robots" content="follow, index" />
             <meta charSet="UTF-8" />
+            <meta name="baidu-site-verification" content="codeva-MZkYLAWxYl" />
+            <meta name="google-site-verification" content="9Hz8EzNnED3L3X_T2yqWEBxqK7ZGkF1elWHJ4tHuU5U" />
             {siteConfig('SEO_GOOGLE_SITE_VERIFICATION') && (
                 <meta
                     name="google-site-verification"
