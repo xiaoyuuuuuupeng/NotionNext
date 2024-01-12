@@ -17,20 +17,15 @@ const CommonHead = ({ meta, children }) => {
 
   return (
         <Head>
+            <meta name="google-site-verification" content="9Hz8EzNnED3L3X_T2yqWEBxqK7ZGkF1elWHJ4tHuU5U" />
+            <meta name="baidu-site-verification" content="codeva-MZkYLAWxYl" />
+            <meta name="test" content="test" />
             <title>{title}</title>
             <meta name="theme-color" content={siteConfig('BACKGROUND_DARK')} />
             <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
             <meta name="robots" content="follow, index" />
             <meta charSet="UTF-8" />
-            <meta name="baidu-site-verification" content="codeva-MZkYLAWxYl" />
-            <meta name="google-site-verification" content="9Hz8EzNnED3L3X_T2yqWEBxqK7ZGkF1elWHJ4tHuU5U" />
-            {siteConfig('SEO_GOOGLE_SITE_VERIFICATION') && (
-                <meta
-                    name="google-site-verification"
-                    content={siteConfig('SEO_GOOGLE_SITE_VERIFICATION')}
-                />
-            )}
-            {siteConfig('SEO_BAIDU_SITE_VERIFICATION') && (<meta name="baidu-site-verification" content={siteConfig('SEO_BAIDU_SITE_VERIFICATION')} />)}
+    
             <meta name="keywords" content={keywords} />
             <meta name="description" content={description} />
             <meta property="og:locale" content={lang} />
